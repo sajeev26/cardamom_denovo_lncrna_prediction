@@ -1,0 +1,47 @@
+name: cardamom_denovo
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  # Core
+  - python=3.10
+
+  # Workflow
+  - snakemake
+
+  # QC tools
+  - sra-tools
+  - fastqc
+  - fastp
+
+  # Assembly
+  - spades=3.15.5
+  - python=3.10
+  
+  # Quantification
+  - salmon
+
+  # Quality & completeness
+  -transrate
+  - busco
+
+  # Python libraries
+  - biopython
+  - pandas
+  - numpy
+  - scikit-learn
+
+  # Perl
+  - perl
+  - perl-threaded
+
+  # Avoid R conflicts:
+  - r-base=4.3
+  - r-argparse
+  
+variables:
+PATH: "/media/jntbgri/ANALYSIS/tools/CPC2/bin:/media/jntbgri/ANALYSIS/tools/PLEK.1.2:$PATH"
+
+

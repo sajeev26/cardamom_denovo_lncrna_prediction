@@ -1,0 +1,25 @@
+# Ignore raw data, results, conda, intermediate files
+data/
+results/
+logs/
+.snakemake/
+conda/
+envs/
+*.fastq
+*.fq
+*fastq.gz
+*.fq.gz
+*.fasta
+*.fa
+*.fna
+*.gz
+*.tar
+*.zip
+*.sam
+*.bam
+*.gff*
+*.gtf
+*.pickle
+*.npy
+*.h5
+__pycache__/

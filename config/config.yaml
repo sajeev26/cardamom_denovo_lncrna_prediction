@@ -1,0 +1,7 @@
+threads: 8
+sra_list: "data/sra.txt"
+trinity_max_memory: "10G"
+cdhit_identity: 0.95
+busco_lineage: "embryophyta_odb10"
+busco_mode: "transcriptome"
+outdir: "results"
